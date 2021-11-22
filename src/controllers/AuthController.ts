@@ -34,7 +34,7 @@ class AuthController {
         const { id } = dataAuth as ITokenPayload;
         request.userId = id;
         
-        return next();
+        return next()
     }
 
 }
